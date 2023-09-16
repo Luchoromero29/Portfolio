@@ -24,21 +24,30 @@ a {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgba(57, 57, 57, 0.278);
+    background-color: rgb(2, 2, 2);
     height: 10vh;
     cursor: pointer;
     text-shadow: 5px;
-    position: absolute;
-    width: 100vw;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+    width: 100vw;
+
     font-size: 2vh;
 }
 
-.navbar-td:hover,
+
 .navbar a:hover {
     transition: 0.4s;
     color: indianred;
 }
+
+.enlace {
+    transition: all 0.5s ease-in-out;
+}
+
+
 
 .navbar tbody {
     width: 100vw;
@@ -53,6 +62,7 @@ a {
 .navbar-td {
     margin: auto;
     font-size: 90%;
+    display: inline-block;
 }
 
 /* FONDO  */
@@ -134,7 +144,7 @@ a {
 .fondo-habilidades {
     background-color: rgba(253, 253, 253, 0.229);
     width: 80%;
-    margin: auto;
+    margin: 140px auto;
     border-radius: 10px;
     outline: 2px solid rgba(255, 255, 255, 0.407);
 }
@@ -144,6 +154,7 @@ a {
     text-align: center;
     padding-top: 5%;
     text-shadow: 2px 2px 2px black;
+    font-size: 2em;
 }
 
 .habilidades {
@@ -173,7 +184,7 @@ a {
 .fondo-proyectos {
     background-color: rgba(253, 253, 253, 0.229);
     width: 80%;
-    margin: auto;
+    margin: 140px auto;
     border-radius: 10px;
     outline: 2px solid rgba(255, 255, 255, 0.407);
 }
